@@ -11,4 +11,4 @@
 var guests = parseInt(prompt("How many guests are at this amazing party?"));
 var donuts = parseInt(prompt("How many donuts are in the house?"));
 
-(donuts >= guests) ? alert("That's right, we have enough Donuts!") : alert("Bummer, not enough donuts for all, you should probably share.")
+(donuts >= guests) ? alert(`That\'s right, we have enough Donuts! ${donuts} to be exact.`) : alert(`Bummer, not enough donuts for all ${donuts} of you, you should probably share.`)
